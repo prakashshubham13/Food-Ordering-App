@@ -1,0 +1,43 @@
+@import "../../global.scss";
+.container{
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color:rgba(0,0,0,0.1);
+    z-index: 99;
+    .subcontainer{
+        position: absolute;
+        text-align: center;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        padding:10px;
+        border-radius:5px;
+        width: 200px;
+        background: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        .cart {
+            height: 30px;
+            width: 30px;
+            color: $mainColor;
+            margin: 10px auto;
+        }
+        h4{
+            font-size: 14px;
+            font-weight: 500;
+            color: $black;
+            margin-bottom: 5px;
+        }
+        button{
+            @include primarybutton(70%,30px);
+            margin: 5px auto;
+            &:nth-child(4){
+                @include primarybutton(70%,30px,white,$mainColor);
+            }
+        }
+    }
+}

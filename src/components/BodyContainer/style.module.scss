@@ -1,0 +1,35 @@
+@import "../../global.scss";
+.container{
+    justify-content: space-between;
+    width:90vw;
+    height:80vh;
+    margin: auto;
+    overflow:hidden;
+    .title{
+        color:rgb(33, 76, 218);
+        font-weight: 700;
+        font-size: 25px;
+    }
+.subcontainer{
+    display:flex;
+    justify-content: space-between;
+    margin:28px 0;
+    .left{
+        flex: 3;
+        display:flex;
+        justify-content:space-between;
+        .result{
+            width:90%;
+        }
+    }
+    .right{
+        flex: 1;
+    }
+}
+}
+.active{
+    opacity: 1;
+}
+.inactive{
+    opacity: 0.3;
+}

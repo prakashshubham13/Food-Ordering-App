@@ -1,0 +1,172 @@
+{
+    "data":{
+        "menu":[
+            {
+                "type":"main_course",
+                "name":"Main Course",
+                "caption":"when you have every favourite dishes in a plate",
+                "icon":"images/3.png",
+                "img":"https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            },
+            {
+                "type":"snacks",
+                "name":"Snacks",
+                "caption":"when you have every favourite dishes in a plate",
+                "icon":"images/1.png",
+                "img":"https://images.pexels.com/photos/1475/food-vegetables-italian-restaurant.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            },
+            {
+                "type":"special_meals",
+                "name":"Special Meals",
+                "caption":"when you have every favourite dishes in a plate",
+                "icon":"images/3.png",
+                "img":"https://images.pexels.com/photos/6232605/pexels-photo-6232605.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            },
+            {
+                "type":"beverages",
+                "name":"Beverages",
+                "caption":"when you have every favourite dishes in a plate",
+                "icon":"images/4.png",
+                "img":"https://images.pexels.com/photos/452737/pexels-photo-452737.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+            },
+            {
+                "type":"deset",
+                "name":"Desert",
+                "caption":"when you have every favourite dishes in a plate",
+                "icon":"images/5.png",
+                "img":"https://images.pexels.com/photos/205961/pexels-photo-205961.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+            }
+        ],
+        "data":[
+            {
+                "type":"main_course",
+                "name":"Light Lunch - Vegan Rice Bowl",
+                "desc":"Brown Rice, Black Beans, Roasted Tofu, Creamy Avocado, BBQ Sauce",
+                "price":4.99,
+                "img":"https://www.indianhealthyrecipes.com/wp-content/uploads/2020/12/fried-rice.jpg",
+                "session":["Breakfast","Lunch","Dinner"],
+                "addons":[
+                    {
+                        "name":"Roasted Tofu",
+                        "price":1.49,
+                        "img":"https://www.indianhealthyrecipes.com/wp-content/uploads/2020/12/fried-rice.jpg"
+                    },
+                    {
+                        "name":"BLack Bean",
+                        "price":1.49,
+                        "img":"https://www.indianhealthyrecipes.com/wp-content/uploads/2020/12/fried-rice.jpg"
+                    },
+                    {
+                        "name":"Brocli",
+                        "price":2.49,
+                        "img":"https://www.indianhealthyrecipes.com/wp-content/uploads/2020/12/fried-rice.jpg"
+                    }
+                ]
+            },
+            {
+                "type":"main_course",
+                "name":"Light Lunch - Chicken Rice Bowl",
+                "desc":"Brown Rice, Black Beans, Roasted Tofu, Creamy Avocado, BBQ Sauce",
+                "price":6.99,
+                "img":"https://static.toiimg.com/photo/75581339.cms",
+                "session":["Breakfast","Lunch","Dinner"],
+                "addons":[
+                    {
+                        "name":"BLack Bean",
+                        "price":1.49,
+                        "img":"https://www.indianhealthyrecipes.com/wp-content/uploads/2020/12/fried-rice.jpg"
+                    },
+                    {
+                        "name":"Brocli",
+                        "price":2.49,
+                        "img":"https://www.indianhealthyrecipes.com/wp-content/uploads/2020/12/fried-rice.jpg"
+                    }
+                ]
+            },
+            {
+                "type":"main_course",
+                "name":"Light Lunch - Chicken Rice Bowl",
+                "desc":"Brown Rice, Black Beans, Roasted Tofu, Creamy Avocado, BBQ Sauce",
+                "price":6.99,
+                "img":"https://www.cookingclassy.com/wp-content/uploads/2020/01/chicken-and-rice-15.jpg",
+                "session":["Breakfast","Lunch","Dinner"],
+                "addons":[
+                    {
+                        "name":"BLack Bean",
+                        "price":1.49,
+                        "img":"https://www.indianhealthyrecipes.com/wp-content/uploads/2020/12/fried-rice.jpg"
+                    },
+                    {
+                        "name":"Brocli",
+                        "price":2.49,
+                        "img":"https://www.indianhealthyrecipes.com/wp-content/uploads/2020/12/fried-rice.jpg"
+                    }
+                ]
+            },
+            {
+                "type":"snacks",
+                "name":"Samosa- Chicken Rice Bowl",
+                "desc":"Brown Rice, Black Beans, Roasted Tofu, Creamy Avocado, BBQ Sauce",
+                "price":6.99,
+                "img":"https://www.cookingclassy.com/wp-content/uploads/2020/01/chicken-and-rice-15.jpg",
+                "session":["Breakfast","Lunch","Dinner"],
+                "addons":[
+                    {
+                        "name":"BLack Bean",
+                        "price":1.49,
+                        "img":"https://www.indianhealthyrecipes.com/wp-content/uploads/2020/12/fried-rice.jpg"
+                    },
+                    {
+                        "name":"Brocli",
+                        "price":2.49,
+                        "img":"https://www.indianhealthyrecipes.com/wp-content/uploads/2020/12/fried-rice.jpg"
+                    }
+                ]
+            },
+            {
+                "type":"snacks",
+                "name":"Chatt- Chicken Rice Bowl",
+                "desc":"Brown Rice, Black Beans, Roasted Tofu, Creamy Avocado, BBQ Sauce",
+                "price":6.99,
+                "img":"https://www.cookingclassy.com/wp-content/uploads/2020/01/chicken-and-rice-15.jpg",
+                "session":["Breakfast","Lunch","Dinner"],
+                "addons":[
+                    {
+                        "name":"BLack Bean",
+                        "price":1.49,
+                        "img":"https://www.indianhealthyrecipes.com/wp-content/uploads/2020/12/fried-rice.jpg"
+                    },
+                    {
+                        "name":"Brocli",
+                        "price":2.49,
+                        "img":"https://www.indianhealthyrecipes.com/wp-content/uploads/2020/12/fried-rice.jpg"
+                    }
+                ]
+            },
+            {
+                "type":"desert",
+                "name":"Ice Cream- Chicken Rice Bowl",
+                "desc":"Brown Rice, Black Beans, Roasted Tofu, Creamy Avocado, BBQ Sauce",
+                "price":6.99,
+                "img":"https://www.cookingclassy.com/wp-content/uploads/2020/01/chicken-and-rice-15.jpg",
+                "session":["Breakfast","Lunch","Dinner"],
+                "addons":[
+                    {
+                        "name":"BLack Bean",
+                        "price":1.49,
+                        "img":"https://www.indianhealthyrecipes.com/wp-content/uploads/2020/12/fried-rice.jpg"
+                    },
+                    {
+                        "name":"Brocli",
+                        "price":2.49,
+                        "img":"https://www.indianhealthyrecipes.com/wp-content/uploads/2020/12/fried-rice.jpg"
+                    }
+                ]
+            }
+        ],
+        "payment_methods":[
+            "Net Banking",
+            "Credit Card/Debit Card"
+        ]
+    }
+}

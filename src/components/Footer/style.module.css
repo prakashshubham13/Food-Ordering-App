@@ -1,0 +1,35 @@
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    height: 8vh;
+    text-align: center;
+    background-color:rgb(29, 29, 29);
+}
+.outerline{
+    height:0.5vh;
+    background-color:white;
+}
+.innerline{
+    height:0.5vh;
+    background-color:rgb(42, 94, 42);
+    width: 30%;
+}
+.menu{
+    width: 65vw;
+    padding:0 5vw;
+    display:flex;
+    justify-content:space-between;
+    line-height:8vh;
+    align-content:center;
+    margin:auto;
+}
+span{
+    margin-left:2vw;
+    color:rgb(177, 177, 177);
+}
+p{
+    color:rgb(177, 177, 177);
+}

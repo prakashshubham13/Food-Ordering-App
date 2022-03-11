@@ -1,0 +1,9 @@
+export const get_Data = "GET_DATA";
+export const get_Menu = "GET_MENU";
+export const get_Payment = "GET_PAYMENT";
+export const set_Payment = "SET_PAYMENT";
+export const add_Tocart = "ADD_TOCART";
+export const remove_Fromcart = "REMOVE_FROMCART";
+export const search_Data = "SEARCH_DATA";
+export const loading_Data = "Loading_Data";
+export const error_Data = "Error_Data";

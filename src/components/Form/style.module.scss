@@ -1,0 +1,57 @@
+@import "../../global.scss";
+.container{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    height:70Vh;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+    .main {
+        width: 100%;
+        margin-bottom: 10px;
+        h4 {
+            color: $mainColor;
+        }
+        .cardouter {
+            margin: 10px 0px 30px 0;
+            padding: 10px 20px;
+            background-color: white;
+            box-shadow: 0 5px 5px rgb(241, 241, 241);
+            border-radius: 8px;
+            width: 92%;
+            display: flex;
+            flex-direction: column;
+            table{
+                @include table(110%);
+            }
+            .row{
+                display:flex;
+                .input{
+                    margin: 5px auto;
+                    @include input;
+                    width: 100%;
+                    span{
+                        font-weight: 500;
+                        font-size: 12px;
+                        margin-left: 5px;
+                    }
+                    input{
+                        width:90%;
+                    }
+                    select{
+                        width:95%;
+                    }
+                }
+            }
+            a{
+                color:$mainColor;
+                text-decoration: none;
+                font-weight: 600;
+                font-size: 13px;
+            }
+        }
+    }
+    
+}

@@ -1,0 +1,47 @@
+.menu{
+    margin:0;
+    padding:0 5px;
+    width:10%;
+    height: 85%;
+    overflow-x:hidden;
+    border-right:2px solid rgba(33, 76, 218,0.4);
+    overflow-y:scroll;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+    ul{
+        margin:0;
+        padding:0;
+        list-style-type:none;
+        li{
+            display:flex;
+            flex-direction:column;
+            align-items:center;
+            margin-bottom:15px;
+            cursor: pointer;
+            h6{
+                font-size:10px;
+                margin:10px 0;
+                color: rgb(33, 76, 218);
+            }
+            img{
+                width:40px;
+                height:40px;
+            }
+        }
+    }
+}
+.result{
+    width:90%;
+    overflow-y: scroll;
+    height:70vh;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+.active{
+    pointer-events: none;
+}
+.inactive{
+    opacity: 0.3;
+}
