@@ -17,7 +17,7 @@ const Card = ({ data }) => {
 
   }
   const clearForm = () => {
-    updateForm({quantity:0,name:"",session:"",note:"",addonvalue:"",addonprice:0});
+    updateForm({quantity:0,name:"",session:"default",note:"",addonvalue:"",addonprice:0});
   }
   return (
     <div className={style.cardouter}>

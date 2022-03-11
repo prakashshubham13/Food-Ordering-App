@@ -26,7 +26,7 @@ const Form = () => {
             event:"",
             location:"",
             date:"",
-            delivery:""
+            delivery:"default"
         })
     }
     useEffect(() => {
