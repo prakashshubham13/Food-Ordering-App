@@ -8,7 +8,7 @@ import {Link} from "react-router-dom";
 const Form = () => {
     const cartData = useSelector(state=>state.cartData);
     const paymentMode = useSelector(state=>state.paymentMode);
-    const [dummyForm, changeForm] = useState({name:"",number:"",event:"",location:"",date:"",delivery:""})
+    const [dummyForm, changeForm] = useState({name:"",number:"",event:"",location:"",date:"",delivery:"default"})
     const setDummy = () => {
         changeForm({
             name:"Shubham",
@@ -64,10 +64,10 @@ const Form = () => {
                     </div>
                     <div className={style.input}>
             <span>Delivery Mode</span>
-            <select defaultValue='' value={dummyForm.delivery}>
-              <option value="" disabled selected hidden>Select Delivery Mode:</option>
-              <option value="Home" selected={dummyForm.delivery==='Home'}>Home</option>
-              <option value="Office" selected={dummyForm.delivery==='Office'}>Office</option>
+            <select value={dummyForm.delivery} readOnly>
+              <option value="default" disabled hidden>Select Delivery Mode:</option>
+              <option value="Home">Home</option>
+              <option value="Office">Office</option>
             </select>
           </div>
                 </div>
@@ -85,9 +85,8 @@ const Form = () => {
      <th>Qty</th>
      <th>Price</th>
    </tr>
-   {cartData?.map((data)=>(
-     <>
-     <tr>
+   {cartData?.map((data,index)=>(
+     <tr key={`${data?.addonvalue}-${index}`}>
      <td>{data?.name}
        {data.addonvalue && <><span>Choose Toppings</span>
        <span><pre> - {data.addonvalue}</pre></span></>}
@@ -97,7 +96,6 @@ const Form = () => {
      <td>{data.quantity}</td>
      <td>${data.price.toFixed(2)}</td>
    </tr>
-   </>
      ))}
    </table>
    </div>

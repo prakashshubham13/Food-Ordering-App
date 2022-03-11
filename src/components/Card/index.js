@@ -8,13 +8,13 @@ const Card = ({ data }) => {
   const dispatch = useDispatch();
   const cartData = useSelector(state=>state.cartData);
   const[addOn, updateAddOn] = useState(false);
-  const[form, updateForm] = useState({quantity:"",session:"",note:"",addonvalue:"",addonprice:""});
+  const[form, updateForm] = useState({quantity:"",session:"default",note:"",addonvalue:"",addonprice:""});
   const changeFormData = (event) => {
     updateForm({...form,[event.target.name]:event.target.value})
   }
   const addCart = () => {
-    form.quantity && form.session && dispatch(addToCart([...cartData,{...form, price:(form?.quantity * (data?.price + form?.addonprice)),name:data.name}]));
-    clearForm();
+    form.quantity && form.session && dispatch(addToCart([...cartData,{...form, price:(form?.quantity * (data?.price + form?.addonprice)),name:data.name}])) && clearForm();
+
   }
   const clearForm = () => {
     updateForm({quantity:0,name:"",session:"",note:"",addonvalue:"",addonprice:0});
@@ -44,7 +44,7 @@ const Card = ({ data }) => {
           <FontAwesomeIcon icon={faAngleUp} className={style.icon} onClick={()=>updateAddOn(false)} />
         </div>
         {data.addons?.map((addonData) => (
-          <li>
+          <li key={addonData?.addonvalue}>
             <div className={style.left}>
               <input type="checkbox" name="addonvalue" checked={form.addonvalue === addonData?.name} onChange={()=>updateForm({...form,addonvalue:addonData?.name,addonprice:addonData?.price})}/>
               <img src={addonData.img} alt="" />
@@ -67,10 +67,8 @@ const Card = ({ data }) => {
           <div className={style.input}>
             <span>Session</span>
             <select name="session" value={form?.session} onChange={changeFormData}>
-              <option value="" disabled selected hidden>Select Session:</option>
-              <option value="morning">Morning</option>
-              <option value="lunch">Lunch</option>
-              <option value="dinner">Dinner</option>
+              <option value="default" disabled hidden>Select Session:</option>
+              {data?.session.map((val)=>(<option value={val}>{val}</option>))}
             </select>
           </div>
           <div className={style.input} style={{ textAlign: "end" }}>

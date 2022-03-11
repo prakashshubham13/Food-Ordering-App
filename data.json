@@ -30,7 +30,7 @@
                 "img":"https://images.pexels.com/photos/452737/pexels-photo-452737.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
             },
             {
-                "type":"deset",
+                "type":"desert",
                 "name":"Desert",
                 "caption":"when you have every favourite dishes in a plate",
                 "icon":"images/5.png",
@@ -52,12 +52,12 @@
                         "img":"https://www.indianhealthyrecipes.com/wp-content/uploads/2020/12/fried-rice.jpg"
                     },
                     {
-                        "name":"BLack Bean",
+                        "name":"Black Bean",
                         "price":1.49,
                         "img":"https://www.indianhealthyrecipes.com/wp-content/uploads/2020/12/fried-rice.jpg"
                     },
                     {
-                        "name":"Brocli",
+                        "name":"Brocoli",
                         "price":2.49,
                         "img":"https://www.indianhealthyrecipes.com/wp-content/uploads/2020/12/fried-rice.jpg"
                     }
@@ -72,12 +72,12 @@
                 "session":["Breakfast","Lunch","Dinner"],
                 "addons":[
                     {
-                        "name":"BLack Bean",
+                        "name":"Black Bean",
                         "price":1.49,
                         "img":"https://www.indianhealthyrecipes.com/wp-content/uploads/2020/12/fried-rice.jpg"
                     },
                     {
-                        "name":"Brocli",
+                        "name":"Brocoli",
                         "price":2.49,
                         "img":"https://www.indianhealthyrecipes.com/wp-content/uploads/2020/12/fried-rice.jpg"
                     }
@@ -92,12 +92,12 @@
                 "session":["Breakfast","Lunch","Dinner"],
                 "addons":[
                     {
-                        "name":"BLack Bean",
+                        "name":"Black Bean",
                         "price":1.49,
                         "img":"https://www.indianhealthyrecipes.com/wp-content/uploads/2020/12/fried-rice.jpg"
                     },
                     {
-                        "name":"Brocli",
+                        "name":"Brocoli",
                         "price":2.49,
                         "img":"https://www.indianhealthyrecipes.com/wp-content/uploads/2020/12/fried-rice.jpg"
                     }
@@ -105,61 +105,105 @@
             },
             {
                 "type":"snacks",
-                "name":"Samosa- Chicken Rice Bowl",
-                "desc":"Brown Rice, Black Beans, Roasted Tofu, Creamy Avocado, BBQ Sauce",
+                "name":"Samosa",
+                "desc":"Air Fryer, Fried & Baked",
                 "price":6.99,
-                "img":"https://www.cookingclassy.com/wp-content/uploads/2020/01/chicken-and-rice-15.jpg",
-                "session":["Breakfast","Lunch","Dinner"],
+                "img":"https://static.toiimg.com/thumb/61050397.cms?width=1200&height=900",
+                "session":["Breakfast","Dinner"],
                 "addons":[
                     {
-                        "name":"BLack Bean",
+                        "name":"Mint Chutney",
                         "price":1.49,
-                        "img":"https://www.indianhealthyrecipes.com/wp-content/uploads/2020/12/fried-rice.jpg"
+                        "img":"https://www.thespruceeats.com/thmb/1DLvUVsFvdvWvwdKCpUNEFU6SZc=/1500x1000/filters:fill(auto,1)/samosa-recipe-5208972-hero-03-df96a730eec248f18fbb2c6c24aa33eb.jpg"
                     },
                     {
-                        "name":"Brocli",
+                        "name":"Tomato Chutney",
                         "price":2.49,
-                        "img":"https://www.indianhealthyrecipes.com/wp-content/uploads/2020/12/fried-rice.jpg"
+                        "img":"https://www.seriouseats.com/thmb/98LmEBUumXHU-BJ3IzHAlQF_1NA=/1500x1125/filters:fill(auto,1)/20210909-SAMOSAS-ANDREWJANJIGIAN-86-ca872c2eae8e4e7eb4e7b47cfad8715e.jpg"
                     }
                 ]
             },
             {
                 "type":"snacks",
-                "name":"Chatt- Chicken Rice Bowl",
-                "desc":"Brown Rice, Black Beans, Roasted Tofu, Creamy Avocado, BBQ Sauce",
+                "name":"Chaat",
+                "desc":"Spicy, Potato pieces, Crisp fried bread",
                 "price":6.99,
-                "img":"https://www.cookingclassy.com/wp-content/uploads/2020/01/chicken-and-rice-15.jpg",
-                "session":["Breakfast","Lunch","Dinner"],
-                "addons":[
-                    {
-                        "name":"BLack Bean",
-                        "price":1.49,
-                        "img":"https://www.indianhealthyrecipes.com/wp-content/uploads/2020/12/fried-rice.jpg"
-                    },
-                    {
-                        "name":"Brocli",
-                        "price":2.49,
-                        "img":"https://www.indianhealthyrecipes.com/wp-content/uploads/2020/12/fried-rice.jpg"
-                    }
-                ]
+                "img":"https://static.toiimg.com/thumb/52727664.cms?width=1200&height=900",
+                "session":["Breakfast","Dinner"],
+                "addons":[]
             },
             {
                 "type":"desert",
-                "name":"Ice Cream- Chicken Rice Bowl",
-                "desc":"Brown Rice, Black Beans, Roasted Tofu, Creamy Avocado, BBQ Sauce",
+                "name":"Ice Cream",
+                "desc":"Sweet, Frozen, Flavoured",
                 "price":6.99,
-                "img":"https://www.cookingclassy.com/wp-content/uploads/2020/01/chicken-and-rice-15.jpg",
+                "img":"https://img.etimg.com/thumb/msid-84939728,width-1200,height-900,imgsize-381352,resizemode-8,quality-100/magazines/panache/from-the-us-russia-to-india-an-ice-cream-bowl-has-a-long-political-history.jpg",
                 "session":["Breakfast","Lunch","Dinner"],
                 "addons":[
                     {
-                        "name":"BLack Bean",
+                        "name":"Oreos",
                         "price":1.49,
-                        "img":"https://www.indianhealthyrecipes.com/wp-content/uploads/2020/12/fried-rice.jpg"
+                        "img":"https://www.seriouseats.com/thmb/LVJsAedOaklj5_UDuodJDTYsCQk=/1500x1125/filters:fill(auto,1)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2019__06__20190523-no-churn-blueberry-ice-cream-vicky-wasik-12-e3b2056ccd0c49509c5bc97054579821.jpg"
                     },
                     {
-                        "name":"Brocli",
+                        "name":"Lemon and Mint",
                         "price":2.49,
-                        "img":"https://www.indianhealthyrecipes.com/wp-content/uploads/2020/12/fried-rice.jpg"
+                        "img":"https://www.seriouseats.com/thmb/LVJsAedOaklj5_UDuodJDTYsCQk=/1500x1125/filters:fill(auto,1)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2019__06__20190523-no-churn-blueberry-ice-cream-vicky-wasik-12-e3b2056ccd0c49509c5bc97054579821.jpg"
+                    }
+                ]
+            },
+            {
+                "type":"beverages",
+                "name":"Chocolate Drink",
+                "desc":"Sweet, Flavoured, Chilled",
+                "price":6.99,
+                "img":"https://img.etimg.com/thumb/msid-84939728,width-1200,height-900,imgsize-381352,resizemode-8,quality-100/magazines/panache/from-the-us-russia-to-india-an-ice-cream-bowl-has-a-long-political-history.jpg",
+                "session":["Breakfast","Lunch","Dinner"],
+                "addons":[
+                    {
+                        "name":"Oreos",
+                        "price":1.49,
+                        "img":"https://img.etimg.com/thumb/msid-84939728,width-1200,height-900,imgsize-381352,resizemode-8,quality-100/magazines/panache/from-the-us-russia-to-india-an-ice-cream-bowl-has-a-long-political-history.jpg"
+                    },
+                    {
+                        "name":"Lemon and Mint",
+                        "price":2.49,
+                        "img":"https://img.etimg.com/thumb/msid-84939728,width-1200,height-900,imgsize-381352,resizemode-8,quality-100/magazines/panache/from-the-us-russia-to-india-an-ice-cream-bowl-has-a-long-political-history.jpg"
+                    }
+                ]
+            },
+            {
+                "type":"beverages",
+                "name":"Tea",
+                "desc":"Hot, Cold, SugarFree",
+                "price":6.99,
+                "img":"https://cdn.shopify.com/s/files/1/0898/3392/articles/BlogHowToBrew_800x.jpg?v=1580236932",
+                "session":["Breakfast","Lunch","Dinner"],
+                "addons":[
+                    {
+                        "name":"Elaichi",
+                        "price":1.49,
+                        "img":"https://cdn.shopify.com/s/files/1/0898/3392/articles/BlogHowToBrew_800x.jpg?v=1580236932"
+                    },
+                    {
+                        "name":"Lemon and Mint",
+                        "price":2.49,
+                        "img":"https://cdn.shopify.com/s/files/1/0898/3392/articles/BlogHowToBrew_800x.jpg?v=1580236932"
+                    }
+                ]
+            },
+            {
+                "type":"special_meals",
+                "name":"South Indian Special",
+                "desc":"Hot, Cold, SugarFree",
+                "price":6.99,
+                "img":"https://5.imimg.com/data5/BE/FN/MY-35171796/selection_848-500x500.png",
+                "session":["Breakfast","Lunch","Dinner"],
+                "addons":[
+                    {
+                        "name":"Extra Sambhar",
+                        "price":1.49,
+                        "img":"https://5.imimg.com/data5/BE/FN/MY-35171796/selection_848-500x500.png"
                     }
                 ]
             }

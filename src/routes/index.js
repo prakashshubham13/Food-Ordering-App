@@ -1,8 +1,12 @@
 import React from 'react';
-import{Cart, Home, PageNotFound} from '../Page';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Loading } from '../components';
+const Home = React.lazy(() => import("../Page/Home"));
+const Cart = React.lazy(() => import("../Page/Cart"));
+const PageNotFound = React.lazy(() => import("../Page/PageNotFound"));
 const Routers = () => {
     return (<>
+     <React.Suspense fallback={<Loading/>}>
         <BrowserRouter >
             <Routes >
                 <Route path='/'
@@ -18,7 +22,7 @@ const Routers = () => {
                     element={< PageNotFound />}
                 />
             </Routes >
-        </BrowserRouter> </>
+        </BrowserRouter> </React.Suspense></>
     );
 };
 

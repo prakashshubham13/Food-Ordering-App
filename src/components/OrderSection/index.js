@@ -1,4 +1,4 @@
-import { useState,useEffect } from 'react'
+import { React,useState,useEffect } from 'react'
 import style from './style.module.scss';
 import Card from '../Card';
 import Banner from '../Banner';
@@ -39,7 +39,7 @@ const OrderSection = () => {
         {!search && <Banner data={currentMenu}/>}
         {storeData
         .filter(data => (search ?data.name.toLowerCase().includes(search.toLowerCase()):data.type === currentMenu?.type))
-        .map(data => <Card data={data}/>) }
+        .map((data,index) => <Card key={`${data?.name}-${index}`} data={data}/>) }
       </div>
     </>
   )

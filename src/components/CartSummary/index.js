@@ -54,7 +54,7 @@ const  CartSummary = ({header=true}) => {
  !header?
  <div className={style.list}>
   {payment?.map((data)=>(
-  <li>
+  <li key={data}>
   <input type="radio" name="mode" onClick={()=>dispatch(setPayment(data))}/>
   <img src="../../images/credit.png" alt=""/>
   <h4>{data}</h4>
@@ -70,8 +70,7 @@ const  CartSummary = ({header=true}) => {
      <th></th>
    </tr>
    {cartData?.map((data, index)=>(
-     <>
-     <tr>
+     <tr key={`${data?.name}-${index}`}>
      <td>{data?.name}
        {data.addonvalue && <><span>Choose Toppings</span>
        <span><pre> - {data.addonvalue}</pre></span></>}
@@ -82,7 +81,6 @@ const  CartSummary = ({header=true}) => {
      <td>${data.price.toFixed(2)}</td>
      <td><FontAwesomeIcon icon={faTrashAlt} className={style.icon} onClick={()=>{toggleModal(!modal);changeIndex(index);}}/></td>
    </tr>
-   </>
      ))}
    </table>
    </>
