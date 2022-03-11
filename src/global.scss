@@ -79,7 +79,7 @@ margin: 0;
         resize: none;
     }
 }
-@mixin table($width:"100%"){
+@mixin table($width:20vw){
     overflow-x: hidden;
     overflow-y: scroll;
     position: relative;
@@ -87,6 +87,7 @@ margin: 0;
     text-align: left;
     padding:5px;
     tr{
+        width: $width;
         th{
             color: $grey;
             font-size: 10px;

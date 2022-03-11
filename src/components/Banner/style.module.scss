@@ -9,7 +9,7 @@
     flex-direction: column;
     position: relative;
     height: 18vh;
-    animation: addShadow 2s ease-in;
+    animation: addShadow 3s ease-in;
     &:after{
         content: '';
         top: 0%;
@@ -21,7 +21,7 @@
         z-index: 9;
         position: absolute;
         display: block;
-        animation: addShadow 2s ease-in;
+        animation: addShadow 3s ease-in;
     }
     @keyframes addShadow {
         0%{
